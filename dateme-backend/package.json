@@ -1,0 +1,31 @@
+{
+  "name": "dateme-backend",
+  "version": "1.0.0",
+  "description": "Backend for dateme website",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolu-c/fuzzy-pancake.git"
+  },
+  "keywords": [
+    "backend",
+    "mern",
+    "dating-app"
+  ],
+  "author": "tolu-c",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolu-c/fuzzy-pancake/issues"
+  },
+  "homepage": "https://github.com/tolu-c/fuzzy-pancake#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16"
+  }
+}
